@@ -3,7 +3,7 @@
 달력을 만들어보자.
 
 ```
-cd /usr/nginx
+cd /usr/share/nginx
 sudo mkdir [folder]
 sudo chown [user]:[user] [folder]
 ```
