@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  margin: 0;
+  background-image: url('cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Indie Flower", courier;
+}
+
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  width: 315px;
+  position: absolute;
+  left: 20vw;
+  top: 10vh;
+
+}
+
+.parent>p{
+  text-align: center;
+  font-size: 20pt;
+}
+.parent>div{
+  width: 30px;
+  margin: 2.5px;
+  padding: 5px;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+}
+.day{
+  height: 20px;
+  background: rgba(0, 0, 0, 0.01);
+}
+.number {
+  height: 25px;
+  background: rgba(0, 0, 0, 0.03);
+}
+.dummy{
+  height: 25px;
+}
+
